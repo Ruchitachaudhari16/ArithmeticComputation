@@ -2,5 +2,5 @@ echo "Welcome to Arithmetic Computation & sorting"
 read -p "Enter the first value:A " a;
 read -p "Enter the Second Value:B " b;
 read -p "Enter the third value:C " c;
-z=$(("$c+$a/$b"));
-printf "$c+$a/$b=$z";
+z=$(("$a % $b + $c"));
+printf "$a%%$b+$c=$z";
